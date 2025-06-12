@@ -1,1 +1,3 @@
-.data/
+/data/
+# Ignore all files in the data directory
+
