@@ -4,7 +4,6 @@ CREATE DATABASE IF NOT EXISTS sales_company;
 USE sales_company;
 
 -- 2. Crear las tablas
-
 DROP TABLE IF EXISTS categories;
 CREATE TABLE categories (
   CategoryID INT PRIMARY KEY,
