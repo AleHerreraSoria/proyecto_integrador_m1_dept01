@@ -10,7 +10,7 @@ GROUP BY s.ProductID, p.ProductName
 ORDER BY Cantidad_Total_Vendida_por_Producto DESC
 LIMIT 5;
 
--- 14.016 sec
+-- 18.594 sec
 
 -- ---------------------------------------------
 
@@ -28,7 +28,7 @@ ON
 	s.SalesPersonID = e.EmployeeID
 GROUP BY s.ProductID, s.SalesPersonID;
 
--- 16.812 sec
+-- 25.250 sec
 
 -- ---------------------------------------------
 
@@ -86,7 +86,7 @@ JOIN products pr ON pr.ProductID = p.ProductID
 JOIN top_5_vendedores_por_producto t ON t.ProductID = p.ProductID
 ORDER BY p.Cantidad_Total DESC;
 
--- 9.047 sec
+-- 14.985 sec
 
 -- ---------------------------------------------
 
